@@ -1,13 +1,76 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #eff0f6;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.tablet {
+  border: 12px solid;
+  border-radius: 10px;
+  height: 95vh;
+}
+.tablet-content {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: move;
+  border-radius: 5px;
+}
+.upload-logo {
+  margin: 50px 0;
+}
+.tablet-title {
+  display: flex;
+  justify-content: center;
+  background-color: #eff0f6;
+}
+.card {
+  background: #fff;
+}
+.text-align-center {
+  text-align: center;
+}
+.d-block {
+  display: block;
+}
+.f-16 {
+  font-size: 16px;
+}
+.separator {
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 10px;
+  color: rgb(149, 170, 201);
+}
+.category-name {
+  display: flex;
+  align-items: center;
+  color: rgb(149, 170, 201);
+}
+.ant-upload.ant-upload-select {
+  height: 30px !important; /* Set the desired height */
+  border-radius: none !important;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.drag {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px dashed #d9d9d9;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgb(149, 170, 201);
+}
+.ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 100px !important;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.text-blue {
+  color: blue;
+}
+.border {
+  border: 2px solid gray;
 }
